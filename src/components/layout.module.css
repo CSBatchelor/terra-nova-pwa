@@ -1,0 +1,58 @@
+.flexContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexZero {
+    flex: 0;
+}
+
+.flexOne {
+    flex: 1;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header > div, main, footer > div   {
+    margin: 0 auto;
+    max-width: 960px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header {
+    background-color: rebeccapurple;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header > div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 1em;
+    background-color: #eeeeee;
+}
+
+footer > div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
